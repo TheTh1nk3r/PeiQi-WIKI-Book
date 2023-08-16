@@ -32,6 +32,13 @@ module.exports = [
 		]
 	},
 	{
+		title: "企望",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/企望/企望制造 ERP comboxstore.action 远程命令执行漏洞",
+		]
+	},
+	{
 		title: "三汇",
 		collapsable: true,
 		children:[
@@ -71,6 +78,13 @@ module.exports = [
 		]
 	},
 	{
+		title: "金盘",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/金盘/金盘 微信管理平台 getsysteminfo 未授权访问漏洞",
+		]
+	},
+	{
 		title: "汉得",
 		collapsable: true,
 		children:[
@@ -98,6 +112,13 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/webapp/安天/安天 高级可持续威胁安全检测系统 越权访问漏洞",
+		]
+	},
+	{
+		title: "腾讯",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/腾讯/腾讯 企业微信 agentinfo 信息泄漏漏洞",
 		]
 	},
 	{
@@ -131,6 +152,7 @@ module.exports = [
 			"/wiki/webapp/绿盟/绿盟 SAS堡垒机 local_user.php 任意用户登录漏洞",
 			"/wiki/webapp/绿盟/绿盟 SAS堡垒机 GetFile 任意文件读取漏洞",
 			"/wiki/webapp/绿盟/绿盟 SAS堡垒机 Exec 远程命令执行漏洞",
+			"/wiki/webapp/绿盟/绿盟 NF下一代防火墙 任意文件上传漏洞",
 		]
 	},
 	{
@@ -197,6 +219,13 @@ module.exports = [
 		]
 	},
 	{
+		title: "1Panel",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/1Panel/1Panel loadfile 后台文件读取漏洞",
+		]
+	},
+	{
 		title: "GitLab",
 		collapsable: true,
 		children:[
@@ -213,6 +242,15 @@ module.exports = [
 			"/wiki/webapp/深信服/深信服 应用交付报表系统 download.php 任意文件读取漏洞",
 			"/wiki/webapp/深信服/深信服 行为感知系统 c.php 远程命令执行漏洞",
 			"/wiki/webapp/深信服/深信服 日志中心 c.php 远程命令执行漏洞",
+			"/wiki/webapp/深信服/深信服 DC数据中心管理系统 sangforindex XML实体注入漏洞",
+		]
+	},
+	{
+		title: "广联达",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/广联达/广联达 Linkworks GetIMDictionary SQL注入漏洞",
+			"/wiki/webapp/广联达/广联达 Linkworks msgbroadcastuploadfile.aspx 后台文件上传漏洞",
 		]
 	},
 	{
@@ -220,6 +258,27 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/webapp/七牛云/七牛云 logkit log_path 任意文件读取漏洞",
+		]
+	},
+	{
+		title: "任我行",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/任我行/任我行 CRM SmsDataList SQL注入漏洞",
+		]
+	},
+	{
+		title: "新开普",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/新开普/新开普 前置服务管理平台 service.action 远程命令执行漏洞",
+		]
+	},
+	{
+		title: "明源云",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/明源云/明源云 ERP系统 接口管家 ApiUpdate.ashx 任意文件上传漏洞",
 		]
 	},
 	{
@@ -353,6 +412,7 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/webapp/KubePi/KubePi LoginLogsSearch 未授权访问漏洞 CVE-2023-22478",
+			"/wiki/webapp/KubePi/KubePi JwtSigKey 登陆绕过漏洞 CVE-2023-22463",
 		]
 	},
 	{
@@ -473,6 +533,13 @@ module.exports = [
 		]
 	},
 	{
+		title: "飞企互联",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/飞企互联/飞企互联 FE业务协作平台 ShowImageServlet 任意文件读取漏洞",
+		]
+	},
+	{
 		title: "中创视迅",
 		collapsable: true,
 		children:[
@@ -582,6 +649,7 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/webapp/Metabase/Metabase geojson 任意文件读取漏洞 CVE-2021-41277",
+			"/wiki/webapp/Metabase/Metabase validate 远程命令执行漏洞 CVE-2023-38646",
 		]
 	},
 	{
@@ -779,6 +847,13 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/webapp/KubeOperator/KubeOperator kubeconfig 未授权访问漏洞 CVE-2023-22480",
+		]
+	},
+	{
+		title: "OfficeWeb365",
+		collapsable: true,
+		children:[
+			"/wiki/webapp/OfficeWeb365/OfficeWeb365 SaveDraw 任意文件上传漏洞",
 		]
 	},
 	{

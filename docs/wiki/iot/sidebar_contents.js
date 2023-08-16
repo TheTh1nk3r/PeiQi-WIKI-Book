@@ -48,6 +48,7 @@ module.exports = [
 		children:[
 			"/wiki/iot/安恒/安恒 明御WEB应用防火墙 report.php 任意用户登录漏洞",
 			"/wiki/iot/安恒/安恒 明御运维审计与风险控制系统 xmlrpc.sock 任意用户添加漏洞",
+			"/wiki/iot/安恒/安恒 明御安全网关 aaa_portal_auth_local_submit 远程命令执行漏洞",
 		]
 	},
 	{
@@ -62,6 +63,10 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/iot/大华/大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞",
+			"/wiki/iot/大华/大华 智慧园区综合管理平台 video 任意文件上传漏洞",
+			"/wiki/iot/大华/大华 智慧园区综合管理平台 getFaceCapture SQL注入漏洞",
+			"/wiki/iot/大华/大华 智慧园区综合管理平台 user_save.action 任意文件上传漏洞",
+			"/wiki/iot/大华/大华 智慧园区综合管理平台 user_getUserInfoByUserName.action 账号密码泄漏漏洞",
 		]
 	},
 	{
@@ -77,7 +82,8 @@ module.exports = [
 			"/wiki/iot/锐捷/锐捷 EG易网关 phpinfo.view.php 信息泄露漏洞",
 			"/wiki/iot/锐捷/锐捷 EG易网关 download.php 任意文件读取漏洞",
 			"/wiki/iot/锐捷/锐捷 EG易网关 cli.php 远程命令执行漏洞",
-			"/wiki/iot/锐捷/锐捷 EG易网关 branch_passw.php 远程命令执行"
+			"/wiki/iot/锐捷/锐捷 EG易网关 branch_passw.php 远程命令执行",
+			"/wiki/iot/锐捷/锐捷 BCR商业无线云网关 后台命令执行漏洞"
 		]
 	},
 	{
@@ -255,6 +261,7 @@ module.exports = [
 			"/wiki/iot/奇安信/网康 NS-ASG安全网关 index.php 远程命令执行漏洞",
 			"/wiki/iot/奇安信/网神 SecIPS 3600 debug_info_export 任意文件下载漏洞",
 			"/wiki/iot/奇安信/网神 SecGate 3600 防火墙 obj_app_upfile 任意文件上传漏洞",
+			"/wiki/iot/奇安信/网御 ACM上网行为管理系统 bottomframe.cgi SQL注入漏洞",
 		]
 	},
 	{
@@ -358,6 +365,13 @@ module.exports = [
 		]
 	},
 	{
+		title: "启明星辰",
+		collapsable: true,
+		children:[
+			"/wiki/iot/启明星辰/启明星辰 4A统一安全管控平台 getMaster.do 信息泄漏漏洞",
+		]
+	},
+	{
 		title: "蜂网互联",
 		collapsable: true,
 		children:[
@@ -406,6 +420,13 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/iot/MagicFlow/MagicFlow 防火墙网关 main.xp 任意文件读取漏洞",
+		]
+	},
+	{
+		title: "Milesight",
+		collapsable: true,
+		children:[
+			"/wiki/iot/Milesight/Milesight VPN server.js 任意文件读取漏洞",
 		]
 	},
 	{

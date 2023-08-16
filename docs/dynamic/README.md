@@ -9,6 +9,61 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      2023.8.15
+      <p>
+         - <a-tag color="red">漏洞相关</a-tag>明源云 ERP系统 接口管家 ApiUpdate.ashx 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>新开普 前置服务管理平台 service.action 远程命令执行漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>致远OA M1Server userTokenService 远程命令执行漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>金蝶OA 云星空 CommonFileServer 任意文件读取漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>OfficeWeb365 SaveDraw 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>深信服 DC数据中心管理系统 sangforindex XML实体注入漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>安恒 明御安全网关 aaa_portal_auth_local_submit 远程命令执行漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>帆软报表 channel 远程命令执行漏洞<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      2023.8.14
+      <p>
+         - <a-tag color="red">漏洞相关</a-tag>启明星辰 4A统一安全管控平台 getMaster.do 信息泄漏漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>大华 智慧园区综合管理平台 user_getUserInfoByUserName.action 账号密码泄漏漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>Metabase validate 远程命令执行漏洞 CVE-2023-38646<br/>
+         - <a-tag color="red">漏洞相关</a-tag>飞企互联 FE业务协作平台 ShowImageServlet 任意文件读取漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>KubePi JwtSigKey 登陆绕过漏洞 CVE-2023-22463<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      2023.8.13
+      <p>
+         - <a-tag color="red">漏洞相关</a-tag>腾讯 企业微信 agentinfo 信息泄漏漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>大华 智慧园区综合管理平台 video 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>大华 智慧园区综合管理平台 getFaceCapture SQL注入漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>任我行 CRM SmsDataList SQL注入漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>企望制造 ERP comboxstore.action 远程命令执行漏洞<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      2023.8.12
+      <p>
+         - <a-tag color="red">漏洞相关</a-tag>广联达 Linkworks msgbroadcastuploadfile.aspx 后台文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>广联达 Linkworks GetIMDictionary SQL注入漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>泛微OA E-Office uploadify 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>锐捷 BCR商业无线云网关 后台命令执行漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件上传漏洞<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      2023.8.11
+      <p>
+         - <a-tag color="red">漏洞相关</a-tag>Milesight VPN server.js 任意文件读取漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>PigCMS action_flashUpload 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>网御 ACM上网行为管理系统 bottomframe.cgi SQL注入漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>绿盟 NF下一代防火墙 任意文件上传漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>金盘 微信管理平台 getsysteminfo 未授权访问漏洞<br/>
+         - <a-tag color="red">漏洞相关</a-tag>1Panel loadfile 后台文件读取漏洞<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       2023.8.10
       <p>
          - <a-tag color="red">漏洞相关</a-tag>绿盟 SAS堡垒机 local_user.php 任意用户登录漏洞<br/>

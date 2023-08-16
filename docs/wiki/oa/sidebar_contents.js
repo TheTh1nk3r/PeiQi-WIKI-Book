@@ -62,6 +62,9 @@ module.exports = [
 			"/wiki/oa/用友OA/用友 GRP-U8 UploadFileData 任意文件上传漏洞",
 			"/wiki/oa/用友OA/用友 ERP-NC NCFindWeb 目录遍历漏洞",
 			"/wiki/oa/用友OA/用友 移动管理系统 uploadApk.do 任意文件上传漏洞",
+			"/wiki/oa/用友OA/用友 ERP-NC NCFindWeb 目录遍历漏洞",
+			"/wiki/oa/用友OA/用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞",
+			"/wiki/oa/用友OA/用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件上传漏洞",
 		]
 	},
 	{
@@ -89,6 +92,7 @@ module.exports = [
 			"/wiki/oa/泛微OA/泛微OA E-Office UserSelect 未授权访问漏洞",
 			"/wiki/oa/泛微OA/泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞",
 			"/wiki/oa/泛微OA/泛微OA E-Bridge saveYZJFile 任意文件读取漏洞",
+			"/wiki/oa/泛微OA/泛微OA E-Office uploadify 任意文件上传漏洞",
 		]
 	},
 	{
@@ -96,6 +100,7 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/oa/致远OA/致远OA 帆软组件 ReportServer 目录遍历漏洞",
+			"/wiki/oa/致远OA/致远OA M1Server userTokenService 远程命令执行漏洞",
 			"/wiki/oa/致远OA/致远OA wpsAssistServlet 任意文件上传漏洞",
 			"/wiki/oa/致远OA/致远OA webmail.do 任意文件下载 CNVD-2020-62422",
 			"/wiki/oa/致远OA/致远OA getSessionList.jsp Session泄漏漏洞",
@@ -127,6 +132,7 @@ module.exports = [
 		children:[
 			"/wiki/oa/帆软OA/帆软报表 V8 get_geo_json 任意文件读取漏洞 CNVD-2018-04757",
 			"/wiki/oa/帆软OA/帆软报表 V9 design_save_svg 任意文件覆盖文件上传",
+			"/wiki/oa/帆软OA/帆软报表 channel 远程命令执行漏洞",
 		]
 	},
 	{
@@ -141,6 +147,8 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/wiki/oa/金蝶OA/金蝶OA Apusic应用服务器-中间件 server_file 目录遍历漏洞",
+			"/wiki/oa/金蝶OA/金蝶OA 云星空 kdsvc 远程命令执行漏洞",
+			"/wiki/oa/金蝶OA/金蝶OA 云星空 CommonFileServer 任意文件读取漏洞",
 			"/wiki/oa/金蝶OA/金蝶OA server_file 目录遍历漏洞",
 		]
 	},
